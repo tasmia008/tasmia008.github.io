@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }} | {{site.title_name}}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
+
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    {% endif %}
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+
+        {% if site.avatar %}<a class="image avatar"><img src="{{ site.avatar }}" alt="avatar"  style="height: 200px; width: 200px;" /></a>{% endif %}
+
+        <h1><br>{{ site.title }}</h1>
+        <p>
+        {% if site.position %}
+        {{ site.position }}
+        <br>
+        {% endif %}
+
+        {% if site.affiliation %}
+        {{ site.affiliation }}
+        <br>
+        {% endif %}
+        {% if site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
+        </p>
+        {% if site.cv_link %}<a href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>  {% endif %}
+        {% if site.google_scholar %}  / <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>  {% endif %}
+        {% if site.github_link %}  / <a href="{{ site.github_link }}" target="_blank" rel="noopener noreferrer">GitHub</a> {% endif %}
+        {% if site.linkedin %}  / <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">Linkedin</a>{% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      <br>
+      <p>
+        <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }} (Last Update: {{ site.time | date: "%d %b %Y" | upcase }})</small>
+      </p>
+      </section>
+      <footer>
+      </footer>
+    </div>
+  </body>
+</html>

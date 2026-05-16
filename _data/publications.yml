@@ -1,0 +1,18 @@
+main:
+
+  - title: "Integrating Supervised and Self-Supervised Models for an Enhanced PCOS Detection: A Data-Driven Approach with Machine Learning Perspective"
+    authors: <strong>Tasmia Tahmida Jidney</strong>, Syed Tangim Pasha, Md. Hassan, Ashraful Islam, Md. Ashraful Amin
+    conference: 6th International Conference on Artificial Intelligence, Robotics, and Control <strong>(AIRC 2025)</strong>, May 2025.
+    pdf: assets/files/pcos_airc2025.pdf
+    notes: <strong>First Author</strong>
+
+  - title: "Ensemble Approach to Classify Spam SMS from Bengali Text"
+    authors: Abdullah Al Maruf, Abdullah Al Numan, Md. Mahmudul Haque, <strong>Tasmia Tahmida Jidney</strong>, Zeyar Aung
+    conference: International Conference on Advances in Computing and Data Sciences <strong>(ICACDS 2023)</strong>.
+    pdf: assets/files/ICACDS20231.pdf
+
+  - title: "AutoML Systems for Medical Imaging"
+    authors: <strong>Tasmia Tahmida Jidney</strong>, Angona Biswas, Nasim Md. Abdullah Al, Ismail Hossain, Md Jahangir Alam, Sajedul Talukder, et al.
+    conference: Book Chapter, <em>Data-Driven Approaches on Medical Imaging</em>, pp. 91–106, 2023.
+    pdf: assets/files/2306.04750v2.pdf
+    notes: <strong>Springer</strong>
