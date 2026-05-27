@@ -4,7 +4,12 @@ main:
     authors: <strong>Tasmia Tahmida Jidney</strong>, Syed Tangim Pasha, Md. Hassan, Ashraful Islam, Md. Ashraful Amin
     conference: 6th International Conference on Artificial Intelligence, Robotics, and Control <strong>(AIRC 2025)</strong>, May 2025.
     pdf: assets/files/pcos_airc2025.pdf
+    code: https://github.com/tasmia008/Integrating-Supervised-Unsupervised-and-Self-Supervised-Models-for-an-Enhanced-PCOS-Detection
     notes: <strong>First Author</strong>
+
+  - title: "An Automotive ECU-Based Forward Collision Prevention System"
+    authors: Faridul Islam, Tahmid Tasdid Nileema, Fuad Rahman Abir, <strong>Tasmia Tahmida Jidney</strong>, Kazi A. Kalpoma
+    conference: International Conference on Advances in Data-driven Computing and Intelligent Systems <strong>(ADCIS)</strong>.
 
   - title: "Ensemble Approach to Classify Spam SMS from Bengali Text"
     authors: Abdullah Al Maruf, Abdullah Al Numan, Md. Mahmudul Haque, <strong>Tasmia Tahmida Jidney</strong>, Zeyar Aung
@@ -16,3 +21,11 @@ main:
     conference: Book Chapter, <em>Data-Driven Approaches on Medical Imaging</em>, pp. 91–106, 2023.
     pdf: assets/files/2306.04750v2.pdf
     notes: <strong>Springer</strong>
+
+  - title: "Hybrid Convolution Neural Network with Transfer Learning Approach for Agro-Crop Leaf Disease Identification"
+    authors: Md. Shamiul Islam, Ummya Habiba, Md. Abu Baten, Nazrul Amin, Imrus Salehin, <strong>Tasmia Tahmida Jidney</strong>
+    conference: International Symposium on Computer Science, Digital Economy and Intelligent Systems <strong>(CSDEIS 2022)</strong>.
+
+  - title: "Improve CNN Model Agro-Crop Leaf Disease Identification Based on Transfer Learning"
+    authors: Md. Shamiul Islam, Ummya Habiba, Md. Abu Baten, Nazrul Amin, Imrus Salehin, <strong>Tasmia Tahmida Jidney</strong>
+    conference: International Conference on Advanced Communication and Intelligent Systems <strong>(ICACIS 2022)</strong>.
